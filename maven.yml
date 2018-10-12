@@ -8,7 +8,7 @@
 
 
       - name: build package
-        command: mvn clean package
+        command: sudo mvn clean package
         args:
            chdir: /var/lib/jenkins/workspace/build
 
